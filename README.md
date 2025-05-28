@@ -2,6 +2,8 @@
 
 Repositório para projetos de migração de dados.
 
+Edições
+
 <!-- com a mudança do diretório Data_migration(rename) houve a necessidade de alterar a pasta de inicialização do git
 comando:
 git remote set-url origin https://github.com/DSadroaldo/Data_migration.git // > montando nova URL
@@ -9,3 +11,4 @@ git remote set-url origin https://github.com/DSadroaldo/Data_migration.git // > 
 ![Alter_directory_init](alter_directory_init.png)
 ![ALteracao no codigo](alter_code_directory.png)
 -->
+<!-- ![doc_autorizacao_usuario](docs_API_auth.png) -->
