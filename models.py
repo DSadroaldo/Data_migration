@@ -23,7 +23,7 @@ class Usuario(Base):
   email = Column("email", String, nullable=False)
   senha = Column("senha", String)
   ativo = Column("ativo", Boolean, default=True)
-  # admin = Column("admin", Boolean, default=False)
+  admin = Column("admin", Boolean, default=False)
 
 # parametro __init__, sempre q for criar um usuario o q necessariamente nosso sistema exige
 def __init__(self, nome, email, senha, ativo=True, admin=False):
@@ -31,7 +31,7 @@ def __init__(self, nome, email, senha, ativo=True, admin=False):
   self.email = email
   self.senha = senha
   self.ativo = ativo
-  # self.admin = admin
+  self.admin = admin
 
 # pedido
 class Pedido(Base):
