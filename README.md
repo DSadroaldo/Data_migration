@@ -7,5 +7,5 @@ comando:
 git remote set-url origin https://github.com/DSadroaldo/Data_migration.git // > montando nova URL
 (https://github.com/DSadroaldo/Data_migration.git*https://github.com/DSadroaldo/Data_migration.githttps://github.com/DSadroaldo/Data_migration.git)
 ![Alter_directory_init](alter_directory_init.png)
-
+![ALteracao no codigo](alter_code_directory.png)
 -->
