@@ -25,7 +25,7 @@ git remote set-url origin https://github.com/DSadroaldo/Data_migration.git // > 
 
 <!-- TODO Alembic - comandos processo Migracao:
   alembic revision --autogenerate -m "text mudança  - > cria um versionamento do BD
-  alembic upgrade head                              - > aplica o versionamento
+  alembic upgrade head                              - > aplica o versionamento / implementar as mudanças no db
 Entendendo o processo de 'Migration' no SQLAlchemy, hávera situações em nosso banco de dados já existente onde precisaremos fazer uma alteração, onde poderá alterar a estrutura do BD e, tbm, alterar os registros já existentes no BD.
 Para isso, existe uma biblioteca no SQLAlchemy que atua de forma segura nesses processos de Migration, chamada Alembic... Basicamente esta ela apoia no processo de migração de uma versão de seu BD para outra versão de forma segura.
 -->
